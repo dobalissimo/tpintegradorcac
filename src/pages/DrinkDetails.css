@@ -1,0 +1,53 @@
+.contenedorDetalle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.col {
+    position: absolute;
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.imagenDrink {
+    margin-top: 50px;
+    margin-right: 500px;
+}
+
+
+.tragoDetalle {
+    font-size: 1rem;
+    padding: 50px 15px;
+    color: white;
+    margin-top: 55px;
+    margin-right: -500px;
+    border: 1px solid white;
+    width: 490px;
+    height: 290px;
+    text-align: justify;
+    text-justify: inter-word;
+    height:auto;
+    background-color: rgba(30, 30, 30, 0.8)
+}
+
+.item {
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: -20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.backgroundImage {
+    position: relative;
+    z-index: -1;
+    margin-top: -100px;
+    width: 1000px;
+    opacity: 60%;
+    filter: blur(4px);
+}

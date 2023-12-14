@@ -1,0 +1,10 @@
+.logo-image {
+    width:auto;
+    height:5em;
+    padding: 10px;
+  }
+
+  .bg-body-tertiary {
+    background-color: rgba(30, 30, 30, 0.2) !important; /* Change the last value (0.7) for the desired transparency level */
+  }
+

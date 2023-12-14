@@ -1,0 +1,33 @@
+.container-tragos {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .tabla-misTragos {
+    align-self: center;
+    width: 800px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  /* @media (max-width: 560px) {
+    .tabla-misTragos {
+      margin: 0 -5px;
+    }
+  
+    .table {
+      font-size: 0.7rem;
+    }
+  
+    .marg_footer {
+      margin-top: 150%;
+    }
+  } */

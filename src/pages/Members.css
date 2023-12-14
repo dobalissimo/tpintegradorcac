@@ -1,0 +1,30 @@
+  .members-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+  .members {
+    margin: 0 auto;
+    align-self: center;
+  }
+  
+  .titleMembers {
+    color: #3498db;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    color: white;
+    margin: 10px 0;
+    font-size: 25px;
+  }
+  
+  li:hover {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }

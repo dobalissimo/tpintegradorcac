@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.title{
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: -40px;
+  margin-top: 20px;
+  font-size: 7rem;
+  text-shadow: 0 0 10px white;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background-color: black !important; /* Change to the desired shade of grey */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+
+.containerFooter{
+  margin: 0 30px;
+}
